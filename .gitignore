@@ -1,16 +1,38 @@
+# macOS
 .DS_Store
 
+# VSCode settings
 .cache/
-
 .vscode/
 
+# CMake build directories
+cmake_build/
 build/
-libs/
-obj/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+*.cmake
 
+# Android NDK
+ndk_build/
+obj/
+libs/
+*.so
+
+# Compiler output
 *.o
 *.obj
+*.exe
+*.out
+*.dll
+*.dylib
 
-*.a
+# Logs
+*.log
 
-*.so
+# Theos
+.theos/
+rootless/
+rootful/
+roothide/
